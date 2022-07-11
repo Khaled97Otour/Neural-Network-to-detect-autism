@@ -11,7 +11,7 @@ Requirements are:
 - Keras >= 2
 - TensorFlow >= 1.15 (or other backend, not tested, TensorFlow is needed by Keras)
 
-After build my dataset I have to create my model which was done by two steps.
+After building my dataset I have to create my model which was done by two steps.
 
 # First I build two CNN lightweight model (mobile_net and squeezenet):
 
