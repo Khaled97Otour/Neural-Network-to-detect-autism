@@ -10,3 +10,15 @@ Requirements are:
 - numpy
 - Keras >= 2
 - TensorFlow >= 1.15 (or other backend, not tested, TensorFlow is needed by Keras)
+
+After build my dataset I have to create my model which was done by two steps.
+
+# First I build two CNN lightweight model (mobile_net and squeezenet):
+
+- The input image was (60,60,3).
+- The out put of each model was a Global pool 2D.
+
+# Second I Concatenate this two model and create a RNN model :
+
+- I used a GRU.
+- SGD optimizer was used to have the best result.
