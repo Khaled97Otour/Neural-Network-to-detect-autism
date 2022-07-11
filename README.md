@@ -22,5 +22,4 @@ After build my dataset I have to create my model which was done by two steps.
 
 - I used a GRU.
 - 5 frames were used for Sequential and create the motion. 
-- I am kind to use logistic reagession for better result.
 - SGD optimizer was used to have the best result.
