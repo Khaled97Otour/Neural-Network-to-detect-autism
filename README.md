@@ -17,7 +17,7 @@ After build my dataset I have to create my model which was done by two steps.
 
 - The input image was (60 , 60 , 3 ).
 - The output of each model was a Global pool 2D.
-- the reason i use the lightweight model way to save memory and have a fast performer
+- the reason I use the lightweight model way to save memory and have a fast performer
 
 # Second I Concatenate this two model and create a RNN model :
 
