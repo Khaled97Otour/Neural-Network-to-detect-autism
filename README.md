@@ -13,13 +13,13 @@ Requirements are:
 
 After building my dataset I have to create my model which was done by two steps.
 
-# First I build two CNN lightweight model (mobile_net and squeezenet):
+## First I build two CNN lightweight model (mobile_net and squeezenet):
 
 - The input image was (60 , 60 , 3 ).
 - The output of each model was a Global pool 2D.
 - the reason I use the lightweight model way to save memory and have a fast performer
 
-# Second I Concatenate this two model and create a RNN model :
+## Second I Concatenate this two model and create a RNN model :
 
 - I used a GRU.
 - 5 frames were used for Sequential and create the motion. 
