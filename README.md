@@ -66,6 +66,6 @@ dense_32 (Dense)                (None, 2)            130         dropout_4[0][0]
 
 ## The results were the following :
 
-![model_acc](https://user-images.githubusercontent.com/93203143/182425794-047f4076-3519-47ff-8fcf-31a777f9e51e.PNG)
+![model_acc](182425794-047f4076-3519-47ff-8fcf-31a777f9e51e.PNG)
 
-![model_loss](https://user-images.githubusercontent.com/93203143/182425798-7111dfc9-7c9a-4d57-96c7-2a7417cdef11.PNG)
+![model_loss](182425798-7111dfc9-7c9a-4d57-96c7-2a7417cdef11.PNG)
