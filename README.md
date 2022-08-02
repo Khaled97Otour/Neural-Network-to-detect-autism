@@ -1,7 +1,8 @@
 # Neural-Network-to-detect-autism
 Detecting autism by building a neural network RNN model (LSTM) that read sequence of frames to determine
 whether the movement normal or suspicious
-
+![model_acc](https://user-images.githubusercontent.com/93203143/182432733-e89f64f3-2f4d-484e-800e-6e38f564693d.PNG)
+![model_loss](https://user-images.githubusercontent.com/93203143/182432738-8befe49f-4eed-41e1-bdb3-bab9ba2232cb.PNG)
 Requirements are:
 - Python >= 3.6 (Python 2 will never been supported)
 - OpenCV
@@ -24,5 +25,4 @@ After building my dataset I have to create my model which was done by two steps.
 - Adamax optimizer was used to have the best result.
 
 ## The results were the following :
-![model_acc](https://user-images.githubusercontent.com/93203143/182432733-e89f64f3-2f4d-484e-800e-6e38f564693d.PNG)
-![model_loss](https://user-images.githubusercontent.com/93203143/182432738-8befe49f-4eed-41e1-bdb3-bab9ba2232cb.PNG)
+
