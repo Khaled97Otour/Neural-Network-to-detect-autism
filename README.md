@@ -72,6 +72,6 @@ ________________________________________________________________________________
 
 ## The results were the following :
 
-![model_acc](https://user-images.githubusercontent.com/93203143/182425204-fa01672a-1e95-44f1-b7d6-df9763424339.PNG)
-![model_loss](https://user-images.githubusercontent.com/93203143/182425220-2397ef7e-3cb4-4220-8ab2-53a9b5acd9e9.PNG)
+![model_acc](https://user-images.githubusercontent.com/93203143/182425794-047f4076-3519-47ff-8fcf-31a777f9e51e.PNG)
+![model_loss](https://user-images.githubusercontent.com/93203143/182425798-7111dfc9-7c9a-4d57-96c7-2a7417cdef11.PNG)
 
