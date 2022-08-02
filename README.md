@@ -23,47 +23,6 @@ After building my dataset I have to create my model which was done by two steps.
 - 5 frames were used for Sequential and create the motion. 
 - Adamax optimizer was used to have the best result.
 
-Model: "functional_1"
-
-__________________________________________________________________________________________________
-
-Layer (type)                    Output Shape         Param #     Connected to                     
-
-==================================================================================================
-
-input_27 (InputLayer)           [(None, 5, 112, 112, 0                                           
-
-__________________________________________________________________________________________________
-
-time_distributed_16 (TimeDistri (None, 5, 1024)      3239808     input_27[0][0]                   
-
-__________________________________________________________________________________________________
-
-time_distributed_17 (TimeDistri (None, 5, 512)       735424      input_27[0][0]                
-
-__________________________________________________________________________________________________
-
-concatenate_55 (Concatenate)    (None, 5, 1536)      0           time_distributed_16[0][0]        
-                                                                 time_distributed_17[0][0]        
-__________________________________________________________________________________________________
-
-lstm_9 (LSTM)                   (None, 5, 256)       1836032     concatenate_55[0][0]             
-__________________________________________________________________________________________________
-
-lstm_10 (LSTM)                  (None, 64)           82176       lstm_9[0][0]                     
-__________________________________________________________________________________________________
-
-dropout_4 (Dropout)             (None, 64)           0           lstm_10[0][0]                    
-__________________________________________________________________________________________________
-
-
-dense_32 (Dense)                (None, 2)            130         dropout_4[0][0]   
-
-==================================================================================================
-- Total params: 5,893,570
-- Trainable params: 5,871,682
-- Non-trainable params: 21,888
-
 ## The results were the following :
 ![model_acc](https://user-images.githubusercontent.com/93203143/182431539-49edee40-5a83-4ba4-8e19-67a6c91d2608.PNG)
 ![model_loss](https://user-images.githubusercontent.com/93203143/182431542-03578be9-3bf3-4790-ac20-63f544efea6c.PNG)
