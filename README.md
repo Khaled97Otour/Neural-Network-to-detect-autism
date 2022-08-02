@@ -69,6 +69,6 @@ ________________________________________________________________________________
 
 ## The results were the following :
 
-![model_acc](https://user-images.githubusercontent.com/93203143/182423976-766e74f5-fe2d-48b0-9be3-448425118948.PNG)
-![model_loss](https://user-images.githubusercontent.com/93203143/182423983-13b9acc7-459b-40e9-87bd-22048a254d85.PNG)
+![model_acc](https://user-images.githubusercontent.com/93203143/182425204-fa01672a-1e95-44f1-b7d6-df9763424339.PNG)
+![model_loss](https://user-images.githubusercontent.com/93203143/182425220-2397ef7e-3cb4-4220-8ab2-53a9b5acd9e9.PNG)
 
