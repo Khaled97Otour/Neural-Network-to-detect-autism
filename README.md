@@ -26,3 +26,4 @@ After building my dataset I have to create my model which was done by two steps.
 ## The results were the following :
 ![model_acc](/182431539-49edee40-5a83-4ba4-8e19-67a6c91d2608.PNG)
 ![model_loss](/182431542-03578be9-3bf3-4790-ac20-63f544efea6c.PNG)
+![model_result](https://user-images.githubusercontent.com/93203143/182432543-41488214-bcce-44f5-b074-40c53300a10b.PNG)
