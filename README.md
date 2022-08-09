@@ -23,8 +23,7 @@ After building my dataset I have to create my model which was done by two steps.
 - 5 frames were used for Sequential and create the motion. 
 - Adamax optimizer was used to have the best result.
 Model: "functional_1"
-__________________________________________________________________________________________________
-Layer (type)                    Output Shape         Param #     Connected to                     
+Layer (type)                    Output Shape         Param      Connected to                     
 ==================================================================================================
 input_1 (InputLayer)           [(None, 5, 60, 60, 0                                            
 __________________________________________________________________________________________________
